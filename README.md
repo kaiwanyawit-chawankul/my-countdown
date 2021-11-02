@@ -1,4 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b954cb94-0f72-4ce7-9327-fe9a3e5dcda7/deploy-status)](https://app.netlify.com/sites/sad-shannon-cc428b/deploys)
+![Vercel](https://vercelbadge.vercel.app/api/kaiwanyawit-chawankul/my-countdown)
+
 
 # Local development
 
@@ -17,7 +18,7 @@
 1. Go to the url
 
     ```sh
-    http://localhost:9000/.netlify/functions/event-gif?on=2022-01-01&text=Happy%20New%20Year!
+    http://localhost:9000/?on=2022-01-01&text=Happy%20New%20Year!
     ```
 
     - `on` Event date
