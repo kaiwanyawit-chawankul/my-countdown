@@ -1,6 +1,6 @@
 'use strict';
 
-const app = require('./express/event-gif');
+const app = require('./api');
 
 const PORT = process.env.PORT || 9000;
 
