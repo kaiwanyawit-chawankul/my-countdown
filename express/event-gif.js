@@ -29,6 +29,6 @@ router.get("/", (req, res) => {
 //app.use(bodyParser.json());
 app.use("/", router); // path must route to lambda
 //app.use("/", (req, res) => res.sendFile(path.join(__dirname, "../public/index.html")));
-
+app.use("/test", (req, res) => res.send("hello"));
 module.exports = app;
 module.exports.handler = serverless(app);
