@@ -2,11 +2,9 @@
   "name": "my-countdown",
   "version": "1.0.0",
   "description": "",
-  "main": "functions/event-gif.js",
+  "main": "express/event-gif.js",
   "scripts": {
-    "build": "netlify-lambda build express --config ./webpack.functions.js",
     "start": "nodemon server-local.js",
-    "serve": "netlify-lambda serve express --config ./webpack.functions.js",
     "create:gif": "node index.js"
   },
   "repository": {
