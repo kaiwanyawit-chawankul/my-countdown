@@ -28,6 +28,7 @@
 - [x] add api
 - [ ] validation
 - [x] return file
+- [x] accept bgColor (red, green, blue)
 - [ ] add server (fix image output)
 - [ ] setup pipeline
 - [ ] show days only
